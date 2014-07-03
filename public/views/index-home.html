@@ -1,0 +1,16 @@
+<div ng-class="{'slider_menu': true, 'slider_menu-right': menuOpen} ">
+	<div class="list-group">
+		<a ng-click="post()" class="list-group-item">Ping</a>
+	</div>
+</div>
+<div ng-class="{'panel': true, 'panel-default': true, 'slider_content': true, 'slider_content-right': menuOpen} ">
+	<div class="panel-heading">
+		<div class="container-fluid text-center">
+			<div class="pull-left"><button ng-click="toggleMenu()" type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-list"></span> Menu</button></div>
+			<strong>Hello Comet</strong>
+		</div>
+	</div>
+	<div class="list-group">
+		<a  ng-repeat="ping in pings" class="list-group-item">Ping</a>
+	</div>
+</div>

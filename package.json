@@ -1,0 +1,11 @@
+{
+	"name": "hellocomet",
+	"description": "hello comet",
+	"version": "0.0.1",
+	"private": true,
+	"dependencies": {
+		"connect": "latest",
+		"serve-static": "latest",
+    		"express": "latest"
+	}
+}

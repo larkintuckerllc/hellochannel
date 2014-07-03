@@ -1,0 +1,9 @@
+{
+	"name": "helloconnect",
+	"version": "1.0.0",
+	"dependencies": {
+		"angular": "latest",
+		"angular-route": "latest",
+		"angular-block-ui": "latest"
+	}
+}
